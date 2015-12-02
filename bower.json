@@ -12,11 +12,12 @@
     ],
     "license": "MIT",
     "ignore": [
-      "bower_components"
+      "bower_components",
+      ".gitignore"
     ],
     "description": "Angular directive used to clamp an element by adding ellipsis to it if the content inside is too long. Based on Clamp.js by Joseph Schmitt",
     "version": "0.1.0",
-    "main": ["./ng-clamp.js"],
+    "main": "ng-clamp.js",
     "dependencies": {
         "angular": ">=1.3.0"
     }
