@@ -1,0 +1,23 @@
+{
+    "author": {
+        "name": "Resendra"
+    },
+    "name": "ng-clamp",
+    "homepage": "https://github.com/Resendra/ng-clamp",
+    "keywords": [
+        "angular",
+        "clamp",
+        "angular-clamp",
+        "ng-clamp"
+    ],
+    "license": "MIT",
+    "ignore": [
+      "bower_components"
+    ],
+    "description": "Angular directive used to clamp an element by adding ellipsis to it if the content inside is too long. Based on Clamp.js by Joseph Schmitt",
+    "version": "0.0.1",
+    "main": ["./ng-clamp.js"],
+    "dependencies": {
+        "angular": ">=1.3.0"
+    }
+}
